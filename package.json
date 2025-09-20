@@ -8,7 +8,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev:start": "tsx watch ./src/server.ts"
+    "dev:start": "tsx watch ./src/server.ts",
+    "lint:fix": "npx eslint --fix ."
   },
   "keywords": [],
   "author": "",
@@ -22,7 +23,10 @@
   },
   "devDependencies": {
     "@types/node": "^22.1.0",
+    "eslint": "^8.57.1",
+    "eslint-kit": "^11.39.0",
     "fastify-tsconfig": "^3.0.0",
+    "prettier": "^3.6.2",
     "tsx": "^4.20.5",
     "typescript": "~5.8.2"
   }
